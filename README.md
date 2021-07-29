@@ -11,9 +11,9 @@ Start the virtual environment
 ```
 source venv/bin/activate
 ```
-Install pyzmq
+Install dependencies
 ```
-python3.8 -m pip install pyzmq
+python3.8 -m pip install -r requirements.txt
 ```
 
 After that you should be able to run the broker > analysis_engine > execution engine

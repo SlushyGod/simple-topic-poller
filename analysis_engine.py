@@ -25,7 +25,7 @@ def start_analysis_engine(port, timeout = 0):
 if __name__ == '__main__':
     ae1_port = 6000
     ae2_port = 6010
-    slow_consumer_timeout = 0 # Simulate work being done for slow consumer
+    slow_consumer_timeout = .1 # Simulate work being done for slow consumer
 
     # Create the analysis engine threads
     ae1_thread = Thread(target = start_analysis_engine, args = (ae1_port, ))
